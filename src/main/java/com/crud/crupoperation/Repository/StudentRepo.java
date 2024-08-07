@@ -6,6 +6,5 @@ import com.crud.crupoperation.Entity.Student;
 
 public interface StudentRepo extends JpaRepository <Student,Integer> {
 
-    
 
 }
