@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CrupoperationApplication<crupoperation>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.crud.crupoperation.CrupoperationApplication",
+            "projectName": "crupoperation",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
