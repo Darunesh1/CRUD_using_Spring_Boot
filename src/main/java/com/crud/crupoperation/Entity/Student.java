@@ -9,7 +9,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity //identifies the class a table
+@Entity
 @Data
 @Table(name="Student")
 @NoArgsConstructor
