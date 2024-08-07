@@ -1,6 +1,9 @@
 package com.crud.crupoperation.Controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,5 +25,11 @@ public class StudentController {
     {
         return studentService.saveData(student);
 
+    }
+
+    @GetMapping("/getStudents")
+    public List<Student> getAllStudents()
+    {
+        return studentService.getData();
     }
 }

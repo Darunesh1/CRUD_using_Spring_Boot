@@ -1,5 +1,7 @@
 package com.crud.crupoperation.Service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,5 +19,10 @@ public class StudentService {
     {
         return studentRepo.save(student);
     } 
+
+    public List<Student> getData()
+    {
+        return studentRepo.findAll();
+    }
 
 }
