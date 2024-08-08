@@ -1,0 +1,5 @@
+com\crud\crupoperation\Service\StudentService.class
+com\crud\crupoperation\Controller\StudentController.class
+com\crud\crupoperation\Entity\Student.class
+com\crud\crupoperation\CrupoperationApplication.class
+com\crud\crupoperation\Repository\StudentRepo.class
